@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7612f228.css",
+    "main.js": "/static/js/main.fe4e29bf.js",
+    "static/js/787.e80b9b00.chunk.js": "/static/js/787.e80b9b00.chunk.js",
+    "static/media/brandSignIn.png": "/static/media/brandSignIn.359e92aeabba7041775f.png",
+    "index.html": "/index.html",
+    "main.7612f228.css.map": "/static/css/main.7612f228.css.map",
+    "main.fe4e29bf.js.map": "/static/js/main.fe4e29bf.js.map",
+    "787.e80b9b00.chunk.js.map": "/static/js/787.e80b9b00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7612f228.css",
+    "static/js/main.fe4e29bf.js"
+  ]
+}

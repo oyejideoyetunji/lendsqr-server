@@ -1,0 +1,21 @@
+{
+  "name": "lendsqr-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:ui": "rm -rf build && cd ../frontend && npm run build --prod && cp -r build ../server",
+    "deploy": "git add . && git commit -m server-deploy && git push heroku master",
+    "deploy:commit": "git add . && git commit -m server-deploy && git push && git push heroku master",
+    "deploy:full": "npm run build:ui && npm run deploy:commit",
+    "logs:prod": "heroku logs --tail"
+  },
+  "author": "oluwatobi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
